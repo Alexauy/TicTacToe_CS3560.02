@@ -49,5 +49,6 @@ public class Board {
             System.out.printf(" %s | %s | %s %n", grid[r][0], grid[r][1], grid[r][2]);
             if (r < 2) System.out.println("---+---+---");
         }
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
     }
 }
