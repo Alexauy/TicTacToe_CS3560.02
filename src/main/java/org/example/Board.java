@@ -29,7 +29,7 @@ public class Board {
         return true;
     }
 
-    public boolean isFull() { return moves == 9; }
+    public boolean isFull() { return moves == 9;}
 
     public Mark winner() {
 

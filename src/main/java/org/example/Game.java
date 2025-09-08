@@ -22,6 +22,10 @@ public class Game {
                 System.out.println("Winner: " + current.name());
                 break;
             }
+            if(board.isFull()){
+                System.out.println("Board full, its a draw!");
+                System.exit(0);
+            }
             current = (current == p1) ? p2 : p1;
         }
     }
