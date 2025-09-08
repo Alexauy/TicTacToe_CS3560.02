@@ -18,9 +18,9 @@ public class Board {
         return true;
     }
 
-    public boolean isFull() { return moves == 9; } //IMPROVE THIS ALSO
+    public boolean isFull() { return moves == 9; } 
 
-    public Mark winner() { //WINNER HAS SOME ISSUES
+    public Mark winner() { 
         for (int i = 0; i < 3; i++) {
             if (line(grid[i][0], grid[i][1], grid[i][2])) return grid[i][0];
             if (line(grid[0][i], grid[1][i], grid[2][i])) return grid[0][i];
