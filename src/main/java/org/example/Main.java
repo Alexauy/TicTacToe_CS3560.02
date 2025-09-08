@@ -6,7 +6,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         Player human = new HumanPlayer("You", Mark.X, in);
-        Player ai = new AIPlayer("Computer", Mark.O, new RandomStrategy());
+        Player ai = new AIPlayer("Computer", Mark.O, new SmartStrategy());
 
         Game game = new Game(human, ai);
         game.play();
